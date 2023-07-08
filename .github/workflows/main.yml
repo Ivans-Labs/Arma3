@@ -1,18 +1,12 @@
 name: Update tracker.md
-
-on:
-  push:
-    branches: [ main ]
+on: [push]
 
 jobs:
-  build:
-
+  job1:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v3
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}  # Use the GITHUB_TOKEN here
+    - name: Checkout
+      uses: actions/checkout@v3
 
     - name: List missions and tools and update tracker.md
       run: |
@@ -26,12 +20,15 @@ jobs:
           echo "- $folder" >> tracker.md
         done
 
-    - name: Commit and push if it changed
+    - name: Commit files
       run: |
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
-        git add tracker.md || exit 0
-        git commit -m "Update: tracker.md" || exit 0
-        git push origin HEAD:main  # Push using the GITHUB_TOKEN
-      env:
-        GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the GITHUB_TOKEN here
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add ./output/tracker.md
+        git commit -m "Update: tracker.md"
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        force: true
