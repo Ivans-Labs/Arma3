@@ -11,6 +11,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}  # Use the GITHUB_TOKEN here
 
     - name: List missions and tools and update tracker.md
       run: |
@@ -26,9 +28,10 @@ jobs:
 
     - name: Commit and push if it changed
       run: |
-        git diff
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
         git add tracker.md || exit 0
         git commit -m "Update: tracker.md" || exit 0
-        git push
+        git push origin HEAD:main  # Push using the GITHUB_TOKEN
+      env:
+        GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the GITHUB_TOKEN here
