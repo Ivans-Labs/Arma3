@@ -1,6 +1,6 @@
 import os
 
-directories = ['missions', 'tools']
+directories = ['missions', 'tools', 'mods', 'models', 'scripts']
 
 with open('README.md', 'w') as f:
 
