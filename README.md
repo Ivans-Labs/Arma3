@@ -8,7 +8,9 @@ FOB Builder V2 is intended to be a Arma 3 Module to add a FOB Building Point Sys
 ### SQFArrayGenerator
 This is a SQF array generator to be used with FOB Builder.
 ### SQFVisualizer
-Currently work in progress...
+Visualize your SQF code in a tree view.
+
+Currently in development.
 ### EasyMission
 Create Arma 3 Missions Faster. WIP 2023
 
