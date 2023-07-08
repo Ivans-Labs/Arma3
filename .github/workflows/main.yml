@@ -1,0 +1,33 @@
+name: Update tracker.md
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: List missions and tools and update tracker.md
+      run: |
+        echo "# Missions" > tracker.md
+        for file in $(ls missions); do
+          echo "- $file" >> tracker.md
+        done
+
+        echo "\n# Tools" >> tracker.md
+        for file in $(ls tools); do
+          echo "- $file" >> tracker.md
+        done
+
+    - name: Commit and push if it changed
+      run: |
+        git diff
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git commit -am "Update tracker.md" || exit 0
+        git push
