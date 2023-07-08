@@ -10,18 +10,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - name: List missions and tools and update tracker.md
       run: |
         echo "# Missions" > tracker.md
-        for file in $(ls missions); do
-          echo "- $file" >> tracker.md
+        for folder in $(ls missions); do
+          echo "- $folder" >> tracker.md
         done
 
         echo "\n# Tools" >> tracker.md
-        for file in $(ls tools); do
-          echo "- $file" >> tracker.md
+        for folder in $(ls tools); do
+          echo "- $folder" >> tracker.md
         done
 
     - name: Commit and push if it changed
@@ -29,5 +29,5 @@ jobs:
         git diff
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
-        git commit -am "Update tracker.md" || exit 0
+        git commit -am "Update: tracker.md" || exit 0
         git push
