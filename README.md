@@ -9,14 +9,16 @@ FOB Builder V2 is intended to be a Arma 3 Module to add a FOB Building Point Sys
 This is a SQF array generator to be used with FOB Builder.
 ### SQFVisualizer
 Currently work in progress...
+### EasyMission
+Create Arma 3 Missions Faster. WIP 2023
 
 ## Mods
 ### githubmod
-#### About This Mod
+# About This Mod
 
 This mod allows Arma 3 mission makers to easily pull or commit their missions directly to GitHub, either as private repositories or publicly viewable ones. With this mod, you can streamline your mission-making process and collaborate with others more easily.
 
-##### Features
+## Features
 
 - Upload missions directly to GitHub from Eden Editor.
 - Choose between private or public repositories
