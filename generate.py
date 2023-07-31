@@ -2,7 +2,14 @@ import os
 
 directories = ['missions', 'tools', 'mods', 'models', 'scripts']
 
+# Add table of contents before text
+table_of_contents = "# Table of Contents\n\n"
+for directory in directories:
+    table_of_contents += f"- [{directory.capitalize()}](#{directory})\n"
+
 with open('README.md', 'w') as f:
+    # Write table of contents
+    f.write(table_of_contents + "\n")
 
     for directory in directories:
         f.write(f"## {directory.capitalize()}\n")
