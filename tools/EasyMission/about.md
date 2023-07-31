@@ -3,6 +3,9 @@
 ```
 Category: Tool
 Author: Ivan
+Version: 0.0.1
+MP Compatible: Yes
+Tags: Mission, Generator, Tool
 ```
 
 <image here>
