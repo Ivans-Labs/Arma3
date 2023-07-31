@@ -72,15 +72,91 @@ A horror mission for 1-6 players. A group of special forces soldiers are sent to
 
 ## Tools
 ### EasyMission
-Create Arma 3 Missions Faster using a CLI tool.
+# Easy Mission Generator
 
-Currently in development.
+```
+Category: Tool
+Author: Ivan
+```
+
+<image here>
+
+## Description
+
+Generate Arma 3 Missions Faster using a CLI tool. Predefined templates are used to generate the mission, and the user can customize the mission by editing the generated files.
+
+## Features
+
+- Generate a mission with a single command
+- Customize the mission by editing the generated files
+- Add your own templates
+
+### To Do List
+
+- [ ] Add more templates
+- [ ] Add more polish
+- [ ] Add more everything
+
+### Installation
+
+WIP
+
+### Usage
+
+```
+Usage: easy-mission [options] [command]
+
+Options:
+  -V, --version              output the version number
+  -h, --help                 display help for command
+
+Commands:
+
+    create [options] <name>    Create a new mission
+    list                       List all available templates
+    help [command]             display help for command
+```
+
+
 ### SQFArrayGenerator
-This is a SQF array generator to be used with FOB Builder.
-### SQFVisualizer
-Visualize your SQF code in a tree view.
+# SQF Array Generator
 
-Currently in development.
+```
+Category: Tool
+Author: Ivan
+```
+
+<image here>
+
+## Description
+
+Used with FOB Builder to generate SQF arrays. But can be used for anything else by modifying the script.
+### SQFVisualizer
+# SQF Debug Visualizer
+
+```
+Category: Tool
+Author: Ivan
+```
+
+<image here>
+
+## Description
+
+Easily visualize SQF code in a web browser. Useful for debugging and locating root of errors.
+
+## Features
+
+- Visualize SQF code in a tree view
+- Mindmap view
+- Export PNG
+
+### To Do List
+
+- [ ] Add core functionality
+- [ ] Add more polish
+- [ ] Add more everything
+
 
 ## Mods
 ### githubmod
@@ -94,6 +170,34 @@ This mod allows Arma 3 mission makers to easily pull or commit their missions di
 - Choose between private or public repositories
 - Streamline your mission-making process
 - Collaborate with others more easily
+
+
+# Arma 3 GitHub Mod
+
+```
+Category: Mod
+Type: Eden Editor Extension
+Author: Ivan
+```
+
+<image here>
+
+## Description
+
+This mod allows Arma 3 mission makers to easily pull or commit their missions directly to GitHub, either as private repositories or publicly viewable ones. With this mod, you can streamline your mission-making process and collaborate with others more easily.
+
+## Features
+
+- Upload missions directly to GitHub from Eden Editor.
+- Choose between private or public repositories
+- Streamline your mission-making process
+- Collaborate with others more easily
+
+### To Do List
+
+- [ ] Add core functionality
+- [ ] Add more polish
+- [ ] Add more everything
 
 ## Models
 

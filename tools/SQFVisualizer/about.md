@@ -1,3 +1,24 @@
-Visualize your SQF code in a tree view.
+# SQF Debug Visualizer
 
-Currently in development.
+```
+Category: Tool
+Author: Ivan
+```
+
+<image here>
+
+## Description
+
+Easily visualize SQF code in a web browser. Useful for debugging and locating root of errors.
+
+## Features
+
+- Visualize SQF code in a tree view
+- Mindmap view
+- Export PNG
+
+### To Do List
+
+- [ ] Add core functionality
+- [ ] Add more polish
+- [ ] Add more everything
