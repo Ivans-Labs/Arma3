@@ -2,13 +2,65 @@
 ### fob-builder-v2
 FOB Builder V2 is intended to be a Arma 3 Module to add a FOB Building Point System to Arma 3 Missions.
 ### specops-albasrah-p1.albasrah
-Conduct Special Operations.
+# Spec Ops: Al Basrah - Part 1
 
+```
+Category: Stealth, Action
+Duration: 60-120 minutes
+Author: Ivan
+Map: Al Basrah
+Mod Preset:
+```
+
+<image here>
+
+## Description
+
+Special Operators are tasked with eliminating a high value target in Al Basrah. The mission is to be completed with stealth, but if the target is alerted, the mission can be completed with force with the consequence of a reactive enemy force. There are also multiple side objectives that can be completed optionally to make future missions easier.
+
+### To Do List
+
+- [ ] Add more objectives
+- [ ] Add more enemies
+- [ ] Add more scares
+- [ ] Add more story
+- [ ] Add more polish
+- [ ] Add more everything
+
+### Songs Used
+
+- [example](example)
 ### fob-builder-dev.VR
 FOB Builder is a script intended to bring Squad FOB Building system to Arma 3 Missions. 
 ### averyscarymission.IslaPera
-Horror Mission
+# A Horror Mission
 
+```
+Category: Horror
+Duration: 30-60 minutes
+Author: Ivan
+Map: Isla Pera
+Mod Preset:
+```
+
+<image here>
+
+## Description
+
+A horror mission for 1-6 players. A group of special forces soldiers are sent to investigate a radio transmission from a remote island. 
+
+### To Do List
+
+- [ ] Add more objectives
+- [ ] Add more enemies
+- [ ] Add more scares
+- [ ] Add more story
+- [ ] Add more polish
+- [ ] Add more everything
+
+### Songs Used
+
+- [example](example)
 
 ## Tools
 ### EasyMission
