@@ -1,1 +1,0 @@
-FOB Builder V2 is intended to be a Arma 3 Module to add a FOB Building Point System to Arma 3 Missions.

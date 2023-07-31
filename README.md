@@ -7,8 +7,6 @@
 - [Scripts](#scripts)
 
 ## Missions
-### fob-builder-v2
-FOB Builder V2 is intended to be a Arma 3 Module to add a FOB Building Point System to Arma 3 Missions.
 ### specops-albasrah-p1.albasrah
 # Spec Ops: Al Basrah - Part 1
 
@@ -198,8 +196,40 @@ This mod allows Arma 3 mission makers to easily pull or commit their missions di
 - [ ] Add core functionality
 - [ ] Add more polish
 - [ ] Add more everything
+### fob-builder-v2
+# FOB Builder v2
+
+```
+Category: Mod
+Type: Module
+Author: Ivan
+```
+
+<image here>
+
+## Description
+
+This mod allows players to contruct FOBs using defined arma 3 objects.
+
+## Features
+
+- Option to use ACE interaction or vanilla interaction
+- Resource Management
+- Persistent FOBs
+- Animated
+- Sounds
+
+### To Do List
+
+- [ ] Add more core features
+- [ ] Add more polish
+- [ ] Add more everything
+- [ ] Package to Arma 3 Mod
+
 
 ## Models
+### fbx
+### blender
 
 ## Scripts
 
