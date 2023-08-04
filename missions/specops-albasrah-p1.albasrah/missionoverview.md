@@ -37,4 +37,5 @@ Your team will need to leverage your skills, knowledge, and advanced weaponry to
 
 2. Our secondary mission is to capture or neutralize Mustafa Al-Mahdi, the leader of the Al-Basrah Liberation Front (ABLF). Al-Mahdi's elimination will significantly disrupt the ABLF's command structure and undermine their overall capacity to carry out attacks.
 
-![Image 1](/images/img1)
+![Image 1](https://github.com/Ivans-Labs/Arma3/blob/dcef669f5e9e093a7144d02dd394796f2421ca3a/missions/specops-albasrah-p1.albasrah/images/img3.png)
+![Image 2](https://github.com/Ivans-Labs/Arma3/blob/dcef669f5e9e093a7144d02dd394796f2421ca3a/missions/specops-albasrah-p1.albasrah/images/img2.png)
