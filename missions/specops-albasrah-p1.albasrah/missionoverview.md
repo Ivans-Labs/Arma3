@@ -30,3 +30,11 @@ Key Challenges: The mission is expected to face several challenges, including:
 4. Counterintelligence: The ABLF has informants within the local population and security forces. Identifying and neutralizing these individuals will be crucial to maintain operational security.
 
 Your team will need to leverage your skills, knowledge, and advanced weaponry to dismantle the ABLF, safeguard key infrastructure, and restore stability to the region.
+
+**Mission Objectives:**
+
+1. Our primary mission is to locate and destroy the Scud vehicle and ammunition caches. These assets pose a significant threat and must be eliminated to ensure the safety of our forces and the success of our operation.
+
+2. Our secondary mission is to capture or neutralize Mustafa Al-Mahdi, the leader of the Al-Basrah Liberation Front (ABLF). Al-Mahdi's elimination will significantly disrupt the ABLF's command structure and undermine their overall capacity to carry out attacks.
+
+![Image 1](/images/img1)
