@@ -15,7 +15,6 @@ def extract_metadata(content):
     i = 0
     while i < len(lines):
         if lines[i] == "```" and len(lines) > i+3 and lines[i+3] == "```":
-            # Extract metadata from the code block
             metadata_lines = lines[i+1:i+3]
             for line in metadata_lines:
                 metadata[line.split(":")[0].strip()] = line.split(":")[1].strip()
@@ -32,7 +31,7 @@ def process_markdown_files(directory):
                 content = f.read()
                 metadata = extract_metadata(content)
                 if metadata:
-                    metadata['File'] = file  # Include file path in metadata
+                    metadata['File'] = file
                     result.append(metadata)
         except Exception as e:
             print(f"Error processing file: {file}")
@@ -43,8 +42,7 @@ def save_to_json(data, filename):
     with open(filename, 'w') as f:
         json.dump(data, f, indent=4)
 
-# Example usage
-directory = os.getcwd()  # Use current directory
+directory = os.getcwd()
 output_file = "metadata.json"
 
 metadata = process_markdown_files(directory)
