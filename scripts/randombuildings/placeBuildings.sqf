@@ -1,5 +1,5 @@
-_smallBuildings = ["Land_Shed_W02", "Land_House_C_11_EP1", "Land_House_C_10_EP1"]; // Add your small building classnames
-_largeBuildings = ["Land_Ind_Workshop01_04", "Land_Mil_Barracks", "Land_A_Castle_Bergfrit"]; // Add your large building classnames
+_smallBuildings = ["test1", "test2", "test3"]; // Add your small building classnames
+_largeBuildings = ["test1", "test2", "test3"]; // Add your large building classnames
 _radius = 300; // Adjust to set the radius of random building placement
 
 _buildingPlacement = {
@@ -33,9 +33,3 @@ _buildingPlacement = {
   };
 
 };
-
-btriggersmall setTriggerActivation ["WEST", "PRESENT", true];
-btriggersmall setTriggerStatements ["this", format["[_thisTrigger, 'small'] call _buildingPlacement;"], ""];
-
-btriggerlarge setTriggerActivation ["WEST", "PRESENT", true];
-btriggerlarge setTriggerStatements ["this", format["[_thisTrigger, 'large'] call _buildingPlacement;"], ""];
