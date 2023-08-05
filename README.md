@@ -275,4 +275,46 @@ This script allows mission makers to easily create rally points for their player
 ## Features
 
 - Easily create rally points for players to spawn at
+### randombuildings
+# Random Buildings Script
+
+```
+Category: Script
+MP Compatible: Yes
+Author: Ivan
+```
+
+<image here>
+
+## Description
+
+Generates random buildings on the map for players to fight over. The script is designed to be as simple as possible to use, while still being flexible enough to be used in a variety of situations.
+### aispawning
+# Random AI Spawning Script
+
+```
+Category: Script
+MP Compatible: Yes
+Author: Ivan
+```
+
+<image here>
+
+## Description
+
+Spawns random AI with specific loadouts.
+### modulecreation
+# Module Creation
+
+```
+Category: Script
+MP Compatible: Yes
+Author: Ivan
+```
+
+<image here>
+
+## Description
+
+Creates a module when triggered.
 

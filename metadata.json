@@ -57,6 +57,24 @@
         "File": "/workspaces/Arma3/scripts/rally/about.md"
     },
     {
+        "Category": "Script",
+        "MP Compatible": "Yes",
+        "Author": "Ivan",
+        "File": "/workspaces/Arma3/scripts/randombuildings/about.md"
+    },
+    {
+        "Category": "Script",
+        "MP Compatible": "Yes",
+        "Author": "Ivan",
+        "File": "/workspaces/Arma3/scripts/aispawning/about.md"
+    },
+    {
+        "Category": "Script",
+        "MP Compatible": "Yes",
+        "Author": "Ivan",
+        "File": "/workspaces/Arma3/scripts/modulecreation/about.md"
+    },
+    {
         "Category": "Tool",
         "Author": "Ivan",
         "Version": "0.0.1",
