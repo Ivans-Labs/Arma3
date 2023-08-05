@@ -1,12 +1,62 @@
 [
     {
-        "Category": "Tool",
+        "Category": "Script",
+        "Duration": "60-120 minutes",
         "Author": "Ivan",
+        "Map": "Al Basrah",
+        "Mod Preset": "",
+        "Version": "0.0.1",
+        "MP Compatible": "Yes",
+        "Tags": "Mission, Generator, Tool",
+        "Usage": "easy-mission [options] [command]",
+        "Options": "",
+        "Commands": "",
+        "Type": "Eden Editor Extension",
         "File": "/workspaces/Arma3/README.md"
+    },
+    {
+        "Category": "Horror",
+        "Duration": "30-60 minutes",
+        "Author": "Ivan",
+        "Map": "Isla Pera",
+        "Mod Preset": "",
+        "File": "/workspaces/Arma3/missions/averyscarymission.IslaPera/about.md"
+    },
+    {
+        "Category": "Stealth, Action",
+        "Duration": "60-120 minutes",
+        "Author": "Ivan",
+        "Map": "Al Basrah",
+        "Mod Preset": "",
+        "File": "/workspaces/Arma3/missions/specops-albasrah-p1.albasrah/about.md"
+    },
+    {
+        "Category": "Mod",
+        "Type": "Module",
+        "Author": "Ivan",
+        "File": "/workspaces/Arma3/mods/fob-builder-v2/about.md"
+    },
+    {
+        "Category": "Mod",
+        "Type": "Eden Editor Extension",
+        "Author": "Ivan",
+        "File": "/workspaces/Arma3/mods/githubmod/about.md"
+    },
+    {
+        "Category": "Script",
+        "MP Compatible": "Yes",
+        "Author": "Ivan",
+        "File": "/workspaces/Arma3/scripts/rally/about.md"
     },
     {
         "Category": "Tool",
         "Author": "Ivan",
+        "Version": "0.0.1",
+        "MP Compatible": "Yes",
+        "Tags": "Mission, Generator, Tool",
+        "Usage": "easy-mission [options] [command]",
+        "Options": "",
+        "Commands": "",
         "File": "/workspaces/Arma3/tools/EasyMission/about.md"
     },
     {

@@ -13,12 +13,17 @@ def extract_metadata(content):
     metadata = {}
     lines = content.split('\n')
     i = 0
+    inside_fence = False
     while i < len(lines):
-        if lines[i] == "```" and len(lines) > i+3 and lines[i+3] == "```":
-            metadata_lines = lines[i+1:i+3]
-            for line in metadata_lines:
-                metadata[line.split(":")[0].strip()] = line.split(":")[1].strip()
-            break
+        if lines[i] == "```":
+            inside_fence = not inside_fence
+            i += 1
+            continue
+        if inside_fence:
+            line = lines[i].strip()
+            if ":" in line:
+                key, value = [item.strip() for item in line.split(":", 1)]
+                metadata[key] = value
         i += 1
     return metadata
 
