@@ -22,7 +22,7 @@ jobs:
 
       - name: Generate Table of Contents
         run: |
-          python generate_readme.py
+          python3 generate.py
 
       - name: Commit and push changes
         run: |
