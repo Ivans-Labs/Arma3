@@ -7,34 +7,6 @@
 - [Scripts](#scripts)
 
 ## Missions
-### specops-albasrah-p1.albasrah
-# Spec Ops: Al Basrah - Part 1
-
-```
-Category: Stealth, Action
-Duration: 60-120 minutes
-Author: Ivan
-Map: Al Basrah
-Mod Preset:
-```
-
-<image here>
-
-## Description
-
-Special Operators are tasked with eliminating a high value target in Al Basrah. The mission is to be completed with stealth, but if the target is alerted, the mission can be completed with force with the consequence of a reactive enemy force. There are also multiple side objectives that can be completed optionally to make future missions easier.
-
-### To Do List
-
-- [ ] Add more side objectives
-- [ ] Add sounds
-- [ ] Jammer script
-- [ ] Rallypoint script
-- [ ] Add Civilians
-
-### Songs Used
-
-- [example](example)
 ### fob-builder-dev.VR
 FOB Builder is a script intended to bring Squad FOB Building system to Arma 3 Missions. 
 ### averyscarymission.IslaPera
@@ -62,6 +34,34 @@ A horror mission for 1-6 players. A group of special forces soldiers are sent to
 - [ ] Add more story
 - [ ] Add more polish
 - [ ] Add more everything
+
+### Songs Used
+
+- [example](example)
+### specops-albasrah-p1.albasrah
+# Spec Ops: Al Basrah - Part 1
+
+```
+Category: Stealth, Action
+Duration: 60-120 minutes
+Author: Ivan
+Map: Al Basrah
+Mod Preset:
+```
+
+<image here>
+
+## Description
+
+Special Operators are tasked with eliminating a high value target in Al Basrah. The mission is to be completed with stealth, but if the target is alerted, the mission can be completed with force with the consequence of a reactive enemy force. There are also multiple side objectives that can be completed optionally to make future missions easier.
+
+### To Do List
+
+- [ ] Add more randomized side objectives
+- [ ] Add sounds
+- [ ] Finish Jammer script
+- [ ] Rallypoint script
+- [ ] Add Civilians
 
 ### Songs Used
 
@@ -159,6 +159,36 @@ Easily visualize SQF code in a web browser. Useful for debugging and locating ro
 
 
 ## Mods
+### fob-builder-v2
+# FOB Builder v2
+
+```
+Category: Mod
+Type: Module
+Author: Ivan
+```
+
+<image here>
+
+## Description
+
+This mod allows players to contruct FOBs using defined arma 3 objects.
+
+## Features
+
+- Option to use ACE interaction or vanilla interaction
+- Resource Management
+- Persistent FOBs
+- Animated
+- Sounds
+
+### To Do List
+
+- [ ] Add more core features
+- [ ] Add more polish
+- [ ] Add more everything
+- [ ] Package to Arma 3 Mod
+
 ### githubmod
 #### About This Mod
 
@@ -198,40 +228,9 @@ This mod allows Arma 3 mission makers to easily pull or commit their missions di
 - [ ] Add core functionality
 - [ ] Add more polish
 - [ ] Add more everything
-### fob-builder-v2
-# FOB Builder v2
-
-```
-Category: Mod
-Type: Module
-Author: Ivan
-```
-
-<image here>
-
-## Description
-
-This mod allows players to contruct FOBs using defined arma 3 objects.
-
-## Features
-
-- Option to use ACE interaction or vanilla interaction
-- Resource Management
-- Persistent FOBs
-- Animated
-- Sounds
-
-### To Do List
-
-- [ ] Add more core features
-- [ ] Add more polish
-- [ ] Add more everything
-- [ ] Package to Arma 3 Mod
-
 
 ## Models
-### fbx
-### blender
+### FBX
 
 ## Scripts
 ### rally
