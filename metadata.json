@@ -3,7 +3,7 @@
         "Category": "Script",
         "Duration": "60-120 minutes",
         "Author": "Ivan",
-        "Map": "Al Basrah",
+        "Map": "Farabad",
         "Mod Preset": "",
         "Version": "0.0.1",
         "MP Compatible": "Yes",
@@ -29,6 +29,14 @@
         "Map": "Al Basrah",
         "Mod Preset": "",
         "File": "/workspaces/Arma3/missions/specops-albasrah-p1.albasrah/about.md"
+    },
+    {
+        "Category": "AAS, Action",
+        "Duration": "60-120 minutes",
+        "Author": "Ivan",
+        "Map": "Farabad",
+        "Mod Preset": "",
+        "File": "/workspaces/Arma3/missions/ArmaAAS-v1.Farabad/about.md"
     },
     {
         "Category": "Mod",
