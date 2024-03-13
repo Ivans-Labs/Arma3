@@ -1,4 +1,4 @@
-# Table of Contents test
+# Table of Contents
 
 - [Missions](#missions)
 - [Tools](#tools)
