@@ -7,8 +7,30 @@
 - [Scripts](#scripts)
 
 ## Missions
-### fob-builder-dev.VR
-FOB Builder is a script intended to bring Squad FOB Building system to Arma 3 Missions. 
+### ArmaAAS-v1.Farabad
+# Arma AAS - Farabad
+
+```
+Category: AAS, Action
+Duration: 60-120 minutes
+Author: Ivan
+Map: Farabad
+Mod Preset:
+```
+
+<image here>
+
+## Description
+
+Advance and Secure mission on the map Farabad. The mission is designed for both PvP, PvE, or PvPVE.
+
+### To Do List
+
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] 5
 ### averyscarymission.IslaPera
 # A Horror Mission
 
@@ -38,6 +60,8 @@ A horror mission for 1-6 players. A group of special forces soldiers are sent to
 ### Songs Used
 
 - [example](example)
+### fob-builder-dev.VR
+FOB Builder is a script intended to bring Squad FOB Building system to Arma 3 Missions. 
 ### specops-albasrah-p1.albasrah
 # Spec Ops: Al Basrah - Part 1
 
@@ -66,30 +90,7 @@ Special Operators are tasked with eliminating a high value target in Al Basrah. 
 ### Songs Used
 
 - [example](example)
-### ArmaAAS-v1.Farabad
-# Arma AAS - Farabad
-
-```
-Category: AAS, Action
-Duration: 60-120 minutes
-Author: Ivan
-Map: Farabad
-Mod Preset:
-```
-
-<image here>
-
-## Description
-
-Advance and Secure mission on the map Farabad. The mission is designed for both PvP, PvE, or PvPVE.
-
-### To Do List
-
-- [ ] 1
-- [ ] 2
-- [ ] 3
-- [ ] 4
-- [ ] 5
+### islands-control.Tanoa
 
 ## Tools
 ### EasyMission
@@ -254,9 +255,36 @@ This mod allows Arma 3 mission makers to easily pull or commit their missions di
 - [ ] Add more everything
 
 ## Models
-### FBX
 
 ## Scripts
+### aispawning
+# Random AI Spawning Script
+
+```
+Category: Script
+MP Compatible: Yes
+Author: Ivan
+```
+
+<image here>
+
+## Description
+
+Spawns random AI with specific loadouts.
+### modulecreation
+# Module Creation
+
+```
+Category: Script
+MP Compatible: Yes
+Author: Ivan
+```
+
+<image here>
+
+## Description
+
+Creates a module when triggered.
 ### rally
 # Rally Point Script
 
@@ -289,8 +317,8 @@ Author: Ivan
 ## Description
 
 Generates random buildings on the map for players to fight over. The script is designed to be as simple as possible to use, while still being flexible enough to be used in a variety of situations.
-### aispawning
-# Random AI Spawning Script
+### resupply
+# Resupply Script
 
 ```
 Category: Script
@@ -302,19 +330,39 @@ Author: Ivan
 
 ## Description
 
-Spawns random AI with specific loadouts.
-### modulecreation
-# Module Creation
+Custom script to mimick air control resupply mission from reaction forces.
 
+1. **Checking Variable Values**
+
+To see the value of a global variable, simply type the variable name and execute the command. For example, to check the current points:
 ```
-Category: Script
-MP Compatible: Yes
-Author: Ivan
+missionNamespace getVariable "points"
 ```
 
-<image here>
+2. **Setting Variable Values**
 
-## Description
+If you want to manually set the value of a variable to test how your script reacts, you can do so by typing:
+```
+missionNamespace setVariable ["points", 100];  // Sets points to 100
+```
 
-Creates a module when triggered.
+3. **Monitoring Changes to a Variable**
+
+To continuously monitor a variable, you can use a loop that repeatedly outputs its value. This is useful for observing changes over time:
+```
+[] spawn {
+    while {true} do {
+        hint format ["Current Points: %1", missionNamespace getVariable "points"];
+        sleep 1;  // Checks the variable every second
+    };
+};
+```
+
+4. **Debugging with Logs**
+
+For more complex debugging, especially in multiplayer scenarios, logging information to the RPT file can be invaluable:
+```
+diag_log format ["Current Points: %1", missionNamespace getVariable "points"];
+```
+
 
